@@ -18,6 +18,18 @@ namespace GuidPlus.Test
 		}
 
 		[Fact]
+		public void StringToGuidPlus()
+		{
+			Guid a = Guid.NewGuid();
+			Guid b = Guid.NewGuid();
+			Guid c = Guid.NewGuid();
+
+			string guidPlusString = new GuidPlus(new Guid[] { a, b, c }).ToString();
+
+			Assert.True(new GuidPlus(guidPlusString).ToString() == guidPlusString);
+		}
+
+		[Fact]
 		public void ValidateToByteArray()
 		{
 			byte[] expected = new byte[32];

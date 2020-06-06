@@ -21,5 +21,14 @@ namespace GuidPlus.Test
 				new GuidPlus(0);
 			});
 		}
+
+		[Fact]
+		public void BadStringFormatExceptionTest()
+		{
+			Assert.Throws<Exceptions.BadStringFormatException>(() =>
+			{
+				new GuidPlus(string.Empty);
+			});
+		}
 	}
 }

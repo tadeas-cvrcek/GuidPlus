@@ -6,6 +6,7 @@
     <Copyright>Copyright © 2020 Tadeáš Cvrček</Copyright>
     <RepositoryUrl>https://github.com/tadeas-cvrcek/GuidPlus</RepositoryUrl>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

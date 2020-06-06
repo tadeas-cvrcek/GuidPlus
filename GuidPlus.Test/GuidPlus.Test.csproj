@@ -12,6 +12,8 @@
     <Copyright>Copyright © 2020 Tadeáš Cvrček</Copyright>
 
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
